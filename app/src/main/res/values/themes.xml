@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyNotes" parent="Theme.Material3.DayNight.NoActionBar">
+<!--         Customize your light theme here. -->
+         <item name="colorPrimary">@color/light_bg</item>
+        <item name="colorPrimaryVariant">@color/light_bg</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.MyNotes" parent="Base.Theme.MyNotes" />
+
+    <style name="ScreenBackground"><item name="android:background">@color/light_bg</item></style>
+    <style name="CardBackground"><item name="android:background">@color/light_card</item></style>
+    <style name="nav_bg"><item name="android:background">@color/light_nav</item></style>
+    <style name="bottom_sheet."><item name="android:background">@color/light_bottom_sheet</item></style>
+    <style name="textColor"><item name="android:textColor">@color/light_heading</item></style>
+    <style name="textColor2"><item name="android:textColor">@color/light_text</item></style>
+</resources>

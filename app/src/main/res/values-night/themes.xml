@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyNotes" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+         <item name="colorPrimary">@color/dark_bg</item>
+        <item name="colorPrimaryVariant">@color/dark_bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+    </style>
+
+    <style name="ScreenBackground"><item name="android:background">@color/dark_bg</item></style>
+    <style name="CardBackground"><item name="android:background">@color/dark_card</item></style>
+    <style name="nav_bg"><item name="android:background">@color/dark_nav</item></style>
+    <style name="bottom_sheet"><item name="android:background">@color/dark_bottom_sheet</item></style>
+    <style name="textColor"><item name="android:textColor">@color/dark_heading</item></style>
+    <style name="textColor2"><item name="android:textColor">@color/dark_text</item></style>
+<!--    A6A6A6-->
+</resources>

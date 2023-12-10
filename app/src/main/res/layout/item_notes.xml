@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:id="@+id/cardNote"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:id="@+id/layoutNote"
+        style="@style/CardBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/note_image_path"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:importantForAccessibility="no"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/montserrat_medium_family"
+            android:textStyle="bold"
+            style="@style/textColor"
+            android:includeFontPadding="false"
+            android:textSize="17dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/note_web_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:textSize="16dp"
+            android:textColorLink="#72BCDD"
+            android:fontFamily="@font/league_spartan"
+            android:autoLink="web"
+            android:textStyle="italic"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/textNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
+            android:maxHeight="120dp"
+            android:fontFamily="@font/league_spartan"
+            style="@style/textColor2"
+            android:includeFontPadding="false"
+            android:textSize="16dp"
+            android:text="TextView" />
+<!--        565656-->
+
+        <TextView
+            android:id="@+id/textDateTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/league_spartan"
+            style="@style/textColor2"
+            android:includeFontPadding="false"
+            android:textSize="9dp"
+            android:text="TextView" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+<!--    Light Theme-->
+    <color name="light_bg">#EEEEEE</color>
+    <color name="light_card">#FFFFFF</color>
+    <color name="light_nav">#F8F8F8</color>
+    <color name="light_bottom_sheet">#FFFFFF</color>
+    <color name="light_heading">#292929</color>
+    <color name="light_text">#484848</color>
+
+<!--    Dark Theme-->
+    <color name="dark_bg">#292929</color>
+    <color name="dark_card">#424242</color>
+    <color name="dark_nav">#2F2D2E</color>
+    <color name="dark_bottom_sheet">#000000</color>
+    <color name="dark_heading">#F6F6F6</color>
+    <color name="dark_text">#B7B7B7</color>
+</resources>
